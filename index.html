@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+<head> <title> Green Beanio </title> </head>
+<!-- who is the best -->
+<script type="text/javascript">
+function best()
+{
+	var name;
+	name = document.getElementById('yourName').value;
+	document.getElementById('happyChat').innerHTML= name + " you are the greatest 😊!"
+}
+</script>
+<body bgcolor="#E9EBF8">
+<center><H1 style="color:#D53C0D"> 🤔🤔🤔 Who Is The Greatest? 🤔🤔🤔 </H1>
+<br><br>
+<center> <p style="color:#474935;font-size:20px;"> What is your name? </p>
+<center> <input type="text" id="yourName" size=40px value="">
+<br><br>
+<input type="button" value="Find Out Who Is The Best!" onclick=best()>
+<br>
+<p id="happyChat" style="font-size:50px;color:#FF303B"></div>
+</body>
